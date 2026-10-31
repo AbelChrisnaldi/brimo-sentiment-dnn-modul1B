@@ -1,0 +1,27 @@
+{
+  "nama_model": "DNN TF-IDF + TruncatedSVD + MLP 64-32-16",
+  "kelas": [
+    "Negatif",
+    "Positif"
+  ],
+  "fitur": [
+    "ulasan"
+  ],
+  "metrik": {
+    "accuracy": 0.9122,
+    "f1_macro": 0.8932,
+    "f1_baseline": 0.4155,
+    "n_test": 2096
+  },
+  "metrik_200_bersama": {
+    "accuracy": 0.905,
+    "f1_macro": 0.8904,
+    "n": 200
+  },
+  "tanggal": "2026-10-31",
+  "versi": {
+    "scikit-learn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}
